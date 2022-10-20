@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/index.css"],
+  "sourcesContent": ["\n.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {\n    border-color: unset !important;\n}\n\n.ck-rounded-corners .ck.ck-editor__main > .ck-editor__editable, .ck.ck-editor__main > .ck-editor__editable.ck-rounded-corners {\n    border-color: unset !important;\n}\n\n.ck-rounded-corners .ck.ck-editor__editable:not(.ck-editor__nested-editable), .ck.ck-editor__editable.ck-rounded-corners:not(.ck-editor__nested-editable) {\n    border-color: unset !important;\n}\n\n.ck.ck-editor__editable_inline {\n    border: unset !important;\n}\n"],
+  "mappings": ";AACA;AACI;AAAA;AAGJ;AAAA;AACI;AAAA;AAGJ;AAAA;AACI;AAAA;AAGJ;AACI;AAAA;",
+  "names": []
+}

@@ -1,0 +1,46 @@
+{
+  "name": "input-editor",
+  "version": "1.0.0",
+  "description": "Input editor by CK",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm run clean && node build.js && tsc --emitDeclarationOnly --outDir dist",
+    "clean": "rimraf dist",
+    "dev": "node serve.js",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github.com/duongdam/input-editor"
+  },
+  "keywords": [
+    "ck",
+    "editor",
+    "input",
+    "editor"
+  ],
+  "author": "duongdam",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "chokidar": "^3.5.3",
+    "esbuild": "^0.15.12",
+    "live-server": "^1.2.2",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4",
+    "use-hot-key-element-v2": "^1.0.1",
+    "web-vitals": "^3.0.4"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^35.2.1",
+    "@ckeditor/ckeditor5-react": "^5.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
